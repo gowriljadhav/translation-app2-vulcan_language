@@ -1,0 +1,1 @@
+// https://api.funtranslations.com/translate/shakespeare.json

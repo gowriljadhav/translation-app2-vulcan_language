@@ -4,7 +4,7 @@ var textInput=document.querySelector("#text-input");
 
 var outPut=document.querySelector("#output")
 
-// var  serverURL="https://api.funtranslations.com/translate/minion.json"
+  var  serverURL="https://api.funtranslations.com/translate/vulcan.json"
 
 function getTranslationURL(text){
     return serverURL+ "?" +"text="+text

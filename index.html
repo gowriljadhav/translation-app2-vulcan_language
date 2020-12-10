@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vulcan</title>
     <style>
+
+        @import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Codystar&family=Nerko+One&display=swap');
         .headerpart{
             padding: 5%;
             background-color: black;
@@ -12,6 +15,8 @@
             border-bottom-left-radius: 10rem;
             border-top-right-radius: 10rem;
             text-align: center;
+            font-size: xx-large;
+            font-family: 'Codystar', cursive;
         }
         
 
@@ -24,22 +29,35 @@
             margin: auto;
            
         }
+        .part1{
+            background-color: black;
+            color: #2e5090;
+            padding: 5%;
+            margin-left: 20%;
+            margin-right: 20%;
+            text-align: center;
+            font-size: xx-large;
+            font-weight: 10;
+            font-family: 'Codystar', cursive;
+            text-justify: auto;
+        }
         
         .textpart{
-            background-color: #b0dced;
+            background-color: black;
             color: #2e5090;
             text-decoration: none;
             text-align: center;
             padding: 1%;
-            font-family: 'Ranchers', cursive;
-            font-weight: lighter;
+            font-family: 'Codystar', cursive;
+            font-weight: bold;
             font-size: larger;
             display: inline;
-            margin-inline-start: 44%;
+            margin-left: 40%;
+            margin-right: 35%;
             
         }
         .oppart{
-            padding: 5%;
+            padding: 10%;
             margin-left: 20%;
             margin-right: 20%;
             border: 3px solid #2e5090;
@@ -47,53 +65,81 @@
         }
         .txtar{
             padding: 10%;
-            margin-left: 20%;
+            margin-left: 35%;
             margin-right: 20%;
             border: 3px solid #2e5090;
             background-color:#b0dced;
+            text-align: center;
+            
             
         }
         .bttn{
-            padding: 1%;
+           
             text-align: center;
-            margin: auto;
-            background-color: #2e5090;
-            color: #b0dced;
+            
+            padding: 1%;
+            margin-left: 45%;
+            margin-right: 45%;
+            background-color: black;
+            color: #2e5090;
+            font-size: x-large;
+            font-family: 'Codystar', cursive;
+            font-weight: bold;
+           
         }
         .footerpart{
             padding: 5%;
             background-color: black;
             color: #2e5090;
+            
             /* border-bottom-right-radius: 10rem;
             border-top-left-radius: 10rem; */
         }
         .footerpart .centrestf{
             text-align: center;
-            font-size: larger;
+            font-size: xx-large;
+            font-family: 'Codystar', cursive;
+            font-weight: 900;
+            
         }
+        
+        .linkd{
+            text-decoration: none;
+            display: inline;
+            color: #2e5090;
+            font-size: small;
+            text-align: left;
+        }
+        
+       
+
     </style>
 </head>
 <body class="bg">
     <h1 class="headerpart" >WELCOME TO THE VULCAN TRANSLATOR!<br></h1><br><br>
      <img src="images/spock.svg" alt="SPOCK" class="spockz"><br><br> 
+     <div class="part1">The Vulcan language is a fictional language in the Star Trek universe spoken by the Vulcans of the planet Vulcan.</div><br><br>
     <textarea class="txtar" id="text-input" placeholder="Type out in English as to what you'd like to translate to Vulcan!"></textarea><br><br>
-    <button class="bttn" id="translate-button">Translate</button><br><br>
-    <div  class="textpart"  >Output will come here 👇</div><br><br>
+    <button class="bttn" id="translate-button">TRANSLATE</button><br><br>
+    <div  class="textpart"  >THE OUTPUT WILL COME HERE 👇</div><br><br><br>
     <div class="oppart" id="output"></div> <br><br>
     
 
 
     <script src="app.js" type="text/javascript"></script>
-    <!-- <footer class="footer"><strong>YOU CAN CONNECT WITH ME ON:</strong><br><br>
-       <a class="linkfoot" href="https://github.com/gowriljadhav">Github</a><br><br>
-       <a class="linkfoot" href="https://twitter.com/gogo_quo">Twitter</a><br><br>
-       <a class="linkfoot" href="https://www.instagram.com/_weirdlyabstract_/">Instagram</a><br><br>
-       <a class="linkfoot" href="https://www.linkedin.com/in/gowri-l-jadhav/">LinkedIn</a><br><br>
-       
-    </footer> -->
+
 
     <footer class="footerpart">
-        <div class="footerpart centrestf">THAT IS ALL FOR TODAY, FOLKS.<br>Dif-Tor heh Smusma<br><smaller>(live long and prosper)</smaller></div>
+        <div class="footerpart centrestf"><strong> THAT'S ALL FOR TODAY, FOLKS.</strong><br><br><br>Dif-Tor heh Smusma<br><smaller>(live long and prosper)</smaller></div><br><br>
+        <div >
+            You can connect with me on:
+            <ul  >
+                <a class="linkd" href="https://github.com/gowriljadhav">Github </a><br><br>
+                <a  class="linkd" href="https://twitter.com/gogo_quo" >Twitter</a><br><br>
+                <a class="linkd" href="https://www.instagram.com/_weirdlyabstract_/">Instagram</a><br><br>
+                <a  class="linkd" href="https://www.linkedin.com/in/gowri-l-jadhav/" >LinkedIn</a><br><br>
+            </ul>
+          </div>
     </footer>
 
 </body>

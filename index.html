@@ -5,10 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vulcan</title>
     <style>
+        .headerpart{
+            padding: 5%;
+            background-color: black;
+            color: #2e5090;
+            border-bottom-left-radius: 10rem;
+            border-top-right-radius: 10rem;
+            text-align: center;
+        }
+        
 
-.textpart{
-            background-color: #374151;
-            color: #FDE68A;
+        .bg{
+            background-color: #1C2841;
+        }
+        
+        .spockz{
+            display: block;
+            margin: auto;
+           
+        }
+        
+        .textpart{
+            background-color: #b0dced;
+            color: #2e5090;
             text-decoration: none;
             text-align: center;
             padding: 1%;
@@ -23,27 +42,40 @@
             padding: 5%;
             margin-left: 20%;
             margin-right: 20%;
-            border: 3px solid #FDE68A;
-            background-color: #FEF3C7;
+            border: 3px solid #2e5090;
+            background-color: #b0dced;
         }
         .txtar{
             padding: 10%;
             margin-left: 20%;
             margin-right: 20%;
-            border: 3px solid #FDE68A;
-            background-color: #FEF3C7;
+            border: 3px solid #2e5090;
+            background-color:#b0dced;
             
         }
         .bttn{
             padding: 1%;
             text-align: center;
             margin: auto;
+            background-color: #2e5090;
+            color: #b0dced;
+        }
+        .footerpart{
+            padding: 5%;
+            background-color: black;
+            color: #2e5090;
+            /* border-bottom-right-radius: 10rem;
+            border-top-left-radius: 10rem; */
+        }
+        .footerpart .centrestf{
+            text-align: center;
+            font-size: larger;
         }
     </style>
 </head>
-<body>
-    <h1 >The Vulcan Translator!<br><small>The banana language refers to the language spoken by the Minions in the Despicable Me media franchise.</small></h1><br><br>
-    <!-- <img src="images/minions3.png" alt="Minions" class="minimg"><br><br> -->
+<body class="bg">
+    <h1 class="headerpart" >WELCOME TO THE VULCAN TRANSLATOR!<br></h1><br><br>
+     <img src="images/spock.svg" alt="SPOCK" class="spockz"><br><br> 
     <textarea class="txtar" id="text-input" placeholder="Type out in English as to what you'd like to translate to Vulcan!"></textarea><br><br>
     <button class="bttn" id="translate-button">Translate</button><br><br>
     <div  class="textpart"  >Output will come here 👇</div><br><br>
@@ -59,6 +91,10 @@
        <a class="linkfoot" href="https://www.linkedin.com/in/gowri-l-jadhav/">LinkedIn</a><br><br>
        
     </footer> -->
+
+    <footer class="footerpart">
+        <div class="footerpart centrestf">THAT IS ALL FOR TODAY, FOLKS.<br>Dif-Tor heh Smusma<br><smaller>(live long and prosper)</smaller></div>
+    </footer>
 
 </body>
 </html>

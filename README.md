@@ -1,3 +1,3 @@
-# translation-app2
+# translation-app2-vulcan language
  
 THIS IS AN APP WHICH TRANSLATES ENGLISH TO THE BANANA LANGUAGE OF THE MINIONS.
